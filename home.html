@@ -8,29 +8,24 @@
     <meta name="keywords" content=""/>
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
 
-    <!-- resetsheet -->
-    <link rel="stylesheet" href="css/reset.css">
-
-    <!-- bootstrap -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-
     <!-- my styles -->
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/imports.css">
 
     <title>Jose Contreras</title>
 
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target="#mobile-bar" data-offset="50">
 
-      <!-- main-header -->
+      <!-- main-menubar -->
       <header>
+          <!-- menu -->
           <div class="row">
 
             <!-- menu-bar -->
             <nav class="navbar navbar-default">
 
-              <div class="col-xs-12 col-md-6">
+              <div class="total-width">
 
                 <div class="navbar-header">
                   <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#mobile-bar" aria-expanded="false">
@@ -41,15 +36,12 @@
                   <a class="navbar-brand" href="#">Jose Contreras</a>
                 </div>
 
-              </div>
-
-              <div class="col-xs-12 col-md-4 col-md-push-2">
                 <!-- items for toggling -->
                 <div class="collapse navbar-collapse" id="mobile-bar">
-                  <ul class="nav navbar-nav">
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">PORTFOLIO</a></li>
-                    <li><a href="#">CONTACT</a></li>
+                  <ul class="nav navbar-nav menubar-right">
+                    <li class=""><a href="#top">ABOUT</a></li>
+                    <li class=""><a class="scrollable" href="#portfolio">PORTFOLIO</a></li>
+                    <li class=""><a class="scrollable" href="#contact">CONTACT</a></li>
                   </ul>
                 </div>
                 <!-- end items for toggling -->
@@ -58,16 +50,41 @@
             </nav>
             <!-- menu-bar -->
           </div>
-
+          <!--end menu -->
       </header>
-      <!-- end main-header -->
+      <!-- end main-menubar -->
 
       <!-- main-section -->
-      <section>
+      <main class="main-background">
+
+        <div class="total-width second-background">
+
+          <header>
+            <div class="row">
+              <h2>Hi! My name is Jose Contreras</h2>
+            </div>
+          </header>
+
+          <section>
+            <div class="row">
 
 
+            </div>
+          </section>
 
-      </section>
+          <section>
+            <div class="row">
+
+            </div>
+          </section>
+
+          <div class="">
+
+          </div>
+
+        </div>
+
+      </main>
       <!-- end main-section -->
 
       <!-- main-footer -->

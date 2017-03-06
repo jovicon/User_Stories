@@ -1,0 +1,79 @@
+/* editing bootstrap */
+
+  /* global */
+    .row {
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+  /* end global */
+
+  /* editando menu */
+    .navbar {
+      border:none;
+      box-shadow: 0px 2px 25px #000707;
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+
+    .navbar-default {
+      /* color de la barra */
+      background-color:#000707;
+    }
+
+    .navbar-default .navbar-brand {
+      /* color del logo principal */
+      color:#f3f6f7;
+      font-size: 30px;
+      font-family: kellyslab;
+    }
+
+    .navbar-default .navbar-brand:hover {
+      /* color del logo principal: estado hover */
+      color:#00afb8;
+    }
+
+    .navbar-default .navbar-brand:focus {
+      /* color del logo principal: estado focus */
+      color:#f3f6f7;
+    }
+
+    .navbar-default .navbar-nav > li:hover {
+      /* color de fondo los items del menu:estado hover */
+      background-color: #f3f6f7;
+      transition: 0.8s ease;
+    }
+
+    .navbar-default .navbar-nav > li > a {
+      /* color de los items del menu */
+      color:#f3f6f7;
+    }
+
+    .navbar-default .navbar-nav > li > a:hover {
+      /* color de los items del menu:estado hover */
+      /*color:#000707;*/
+    }
+
+    .navbar-default .navbar-nav > li > a:focus {
+      /* color de los items del menu:estado focus */
+      color:#00afb8;
+    }
+    /* editando boton de menu */
+      .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+        background-color:#f3f6f7;
+      }
+
+      .navbar-default .navbar-toggle .icon-bar {
+        /* color de los icon-bar sin seleccionar */
+        background-color:#f3f6f7;
+      }
+
+      .navbar-default .navbar-toggle:hover > span,
+      .navbar-default .navbar-toggle:active > span {
+        /* color de los icon-bar seleccionados */
+        background-color:#000707;
+      }
+    /* end editando boton de menu */
+
+  /* end editando menu */
+
+/* end editing bootstrap */

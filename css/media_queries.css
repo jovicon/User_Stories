@@ -1,0 +1,25 @@
+/* media queries */
+
+  /* tablets > */
+  @media (min-width: 768px) {
+    .total-width {
+      width:80%;
+      margin:auto;
+    }
+
+    .menubar-right {
+      float:right;
+    }
+  }
+  /* end tablets > */
+
+  /* mobile s,m,l */
+  @media (max-width: 767px) {
+    .total-width {
+      width:100%;
+      margin:auto;
+    }
+  }
+  /* end mobile s,m,l */
+
+/* end media queries */
