@@ -10,6 +10,22 @@
     .menubar-right {
       float:right;
     }
+
+    /* editando vista about */
+    .about {
+      width: 100% ;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .about-distribution {
+      display:inherit;
+      width:100%;
+      align-items: center;
+      justify-content: center;
+      height: 55vh;
+    }
+    /* end editando sector about */
   }
   /* end tablets > */
 

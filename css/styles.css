@@ -1,9 +1,18 @@
 /* hoja de estilos */
 
+/* estilos de toda la pagina */
 *, body {
   color:#f3f6f7;
 }
+/* end estilos de toda la pagina */
 
+/* no right padding on menybar */
+.no-padding-right {
+  padding-right:0;
+}
+/* end no-padding on menybar */
+
+/* hero-image */
 .main-background {
   background: url("../img/hero_image2.jpg");
   background-size: cover;
@@ -13,10 +22,24 @@
   display:flex;
   position:fixed;
 }
+/* end hero-image */
 
+/* second layer/text layer */
 .second-background {
   background-color:rgba(0,7,7,0.7);
   height: 100vh;
+  display: inherit;
 }
+/* end second layer/text layer */
+
+/* editing my pic */
+
+.jose_contreras {
+  border-radius:50%;
+  max-width: 180px;
+  box-shadow: 0px 2px 25px #000707;
+}
+
+/* end editing my pic */
 
 /* end hoja de estilos */

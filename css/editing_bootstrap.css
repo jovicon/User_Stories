@@ -58,7 +58,8 @@
       color:#00afb8;
     }
     /* editando boton de menu */
-      .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+      .navbar-default .navbar-toggle:focus,
+      .navbar-default .navbar-toggle:hover {
         background-color:#f3f6f7;
       }
 
