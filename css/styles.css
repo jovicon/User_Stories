@@ -6,9 +6,13 @@
 }
 /* end estilos de toda la pagina */
 
-/* no right padding on menybar */
+/* no padding / no margin */
 .no-padding-right {
   padding-right:0;
+}
+
+.no-margin-top {
+  margin-top:0; 
 }
 /* end no-padding on menybar */
 
@@ -35,11 +39,28 @@
 /* editing my pic */
 
 .jose_contreras {
+  margin:auto;
   border-radius:50%;
-  max-width: 180px;
+  max-width: 170px;
   box-shadow: 0px 2px 25px #000707;
 }
 
 /* end editing my pic */
+
+/* primary Text / secondary Text */
+
+.primary-text {
+  color:#f3f6f7;
+  text-align: center;
+  font:bold 60px kellyslab;
+}
+
+.secundary-text {
+  color:#f3f6f7;
+  text-align:center;
+  font: normal 20px titilliumweb;
+}
+
+/* end primary Text / secondary Text */
 
 /* end hoja de estilos */
