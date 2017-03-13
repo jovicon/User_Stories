@@ -1,14 +1,23 @@
-// my scripts
 
+$("a[href*=\\#]").click(function() {
 
+if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+    && location.hostname == this.hostname) {
 
-// end my scripts
+        var $target = $(this.hash);
 
-// jQuery
+        $target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
 
-// $("li").click(function(){
-//   $("li").removeClass("active");
-//   $(this).addClass("active");
-// });
+        if ($target.length) {
 
-// end jQuery
+            var targetOffset = $target.offset().top;
+
+            $('html,body').animate({scrollTop: targetOffset}, 1000);
+
+            return false;
+
+       }
+
+  }
+
+});

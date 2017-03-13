@@ -22,11 +22,6 @@
     }
 
     /* editando vista about */
-    .about {
-      width: 100% ;
-      display: flex;
-      flex-direction: column;
-    }
 
     .about-distribution-img,
     .about-distribution-text {
@@ -34,19 +29,18 @@
       width:100%;
       align-items: center;
       justify-content: center;
-      
+
     }
-    
+
     .about > .about-distribution-text {
       align-items: flex-start;
     }
-    
+
     .about-distribution-text {
       justify-content: center;
       height: 65vh;
     }
-    
-    
+
     /* end editando sector about */
   }
   /* end tablets > */
@@ -57,12 +51,12 @@
       width:100%;
       margin:auto;
     }
-    
+
     /* letras principales de about */
     .primary-text {
       font:bold 4em kellyslab;
     }
-    
+
   }
   /* end mobile s,m,l */
 
@@ -70,7 +64,7 @@
 
   @media (max-width: 425px) and (min-width:321px) {
     .primary-text {
-      font: bold 2.75em kellyslab;
+      font: bold 4rem kellyslab;
     }
   }
 
@@ -79,10 +73,18 @@
   /* mobile s and m  */
   @media (max-width:320px) {
     .primary-text {
-      font:bold 2.35em kellyslab;
+      font:bold 3rem kellyslab;
+    }
+
+    .secundary-text {
+      font-size:1.5rem;
     }
   }
-    
+
+  .jose_contreras {
+    max-width: 150px;
+  }
+
   /* mobile s and m */
 
 /* end media queries */

@@ -18,7 +18,7 @@
   <body data-spy="scroll" data-target="#mobile-bar" data-offset="50">
 
       <!-- main-menubar -->
-      <header>
+      <header class="fixed">
           <!-- menu -->
           <div class="row">
 
@@ -55,24 +55,26 @@
       <!-- end main-menubar -->
 
       <!-- main-section/main background -->
-      <main class="main-background">
+      <div id="top" class="main">
 
-        <!-- second-section/second layer -->
-        <div class="total-width second-background">
+      <main class="main-background top-margin">
 
-          <header class="about" >
-              
+        <!-- second layer -->
+        <div class="flex-organization total-width second-background">
+
+          <header id="about" class="about" >
+
             <div class="row about-distribution-text">
-              
+
               <div class="col-xs-12 col-md-8">
 
                 <h2 class="primary-text">I'm Jose Salomon Contreras a self-taught Front-End Developer and UX/UI Designer</h2>
                 <p class="secundary-text">My mindset is belong to a dynamic team with great projects and be able to expand my current knowledges.</p>
 
               </div>
-            
+
             </div>
-              
+
             <div class="row about-distribution-img">
 
               <div class="col-xs-12 col-md-3">
@@ -82,14 +84,21 @@
               </div>
 
             </div>
-            
+
           </header>
 
-          <section>
-            <div class="row">
+          <section id="portfolio" class="portfolio">
+
+              <p class="primary-text top-margin">My Portfolio</p>
+
+              <img class="moving-image" src="img/html.png" alt="">
+              <img class="moving-image-3" src="img/css.png" alt="">
+              <img class="moving-image radius" src="img/js.png" alt="">
+              <img class="moving-image" src="img/sass.png" alt="">
+              <img class="moving-image radius" src="img/bootstrap.png" alt="">
+              <img class="moving-image-2" src="img/jquery.png" alt="">
 
 
-            </div>
           </section>
 
           <section>
@@ -102,18 +111,20 @@
 
           </div>
 
+          <!-- main-footer -->
+          <footer id="contact" class="contact">
+
+
+
+          </footer>
+          <!-- end main footer -->
+
         </div>
 
+
       </main>
+      </div>
       <!-- end main-section -->
-
-      <!-- main-footer -->
-      <footer>
-
-
-
-      </footer>
-      <!-- end main footer -->
 
 
     <!-- bootstrap & jQuery -->
