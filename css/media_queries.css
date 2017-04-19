@@ -10,12 +10,16 @@
 
   /* end 1441 > */
 
+  @media (min-width:992px) {
+
+  }
+
   /* 991px max */
 
   @media (max-width:991px) {
     contact-block{
       margin: 2% 10%;
-      width:80%;
+      width:80vw;
     }
   }
 
@@ -53,6 +57,33 @@
     }
 
     /* end editando sector about */
+
+    footer {
+      width:100vw;
+      margin-left:-10vw;
+    }
+
+    .second-layer {
+      width:80%;
+      margin-left: 10%;
+    }
+
+    footer > div > p {
+      display: inline-block;
+      width:33%;
+    }
+
+    footer > div > p:nth-child(1) {
+    }
+
+    footer > div > p:nth-child(2) {
+      text-align: center;
+    }
+
+    footer > div > p:nth-child(3) {
+      text-align: right;
+    }
+
   }
   /* end tablets > */
 
