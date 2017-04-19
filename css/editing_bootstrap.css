@@ -37,6 +37,10 @@
       color:#f3f6f7;
     }
 
+    .navbar-default .navbar-nav > li {
+      transition: 0.8s ease;
+    }
+
     .navbar-default .navbar-nav > li:hover {
       /* color de fondo los items del menu:estado hover */
       background-color: #f3f6f7;
@@ -55,7 +59,8 @@
 
     .navbar-default .navbar-nav > li > a:focus {
       /* color de los items del menu:estado focus */
-      color:#00afb8;
+      /*color:#00afb8;*/ /* color azul claro */
+      color:#f3f6f7;
     }
     /* editando boton de menu */
       .navbar-default .navbar-toggle:focus,

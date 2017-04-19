@@ -45,6 +45,8 @@
   top:0;
 }
 
+
+
 /* editing menu */
 
 /* second layer */
@@ -149,6 +151,66 @@
 .contact {
   width:100%;
   height: 100vh;
+}
+
+.contact-block {
+  padding:4rem;
+  padding-top: 0;
+}
+
+form > input[type=text],
+form > input[type=email] {
+  width:100%;
+  margin-top:2rem;
+  font-size: 1.5rem;
+  text-align: center;
+  background: transparent;
+  border:none;
+  border-bottom:solid 1px #f3f6f7;
+  outline: 0;
+}
+
+form > input:nth-child(1) {
+  margin-top:0;
+}
+
+form > input[type=submit] {
+  background: transparent;
+  display: block;
+  padding: 0.5rem 1rem;
+  border: none;
+  margin:0 auto;
+  font-size: 1.5rem;
+  margin-top:2rem;
+  color:#f3f6f7;
+  text-align: center;
+  font-family: kellyslab;
+  border:solid 1px  #f3f6f7;
+}
+
+*::-webkit-input-placeholder {
+    /* Google Chrome y Safari */
+    color:#f3f6f7;
+    text-align: center;
+    font-family: kellyslab;
+}
+*:-moz-placeholder {
+    /* Firefox anterior a 19 */
+    color:#f3f6f7;
+    text-align: center;
+    font-family: kellyslab;
+}
+*::-moz-placeholder {
+    /* Firefox 19 y superior */
+    text-align: center;
+    color:#f3f6f7;
+    font-family: kellyslab;
+}
+*:-ms-input-placeholder {
+    /* Internet Explorer 10 y superior */
+    text-align: center;
+    color:#f3f6f7;
+    font-family: kellyslab;
 }
 
 /* footer */

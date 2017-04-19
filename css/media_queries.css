@@ -10,6 +10,17 @@
 
   /* end 1441 > */
 
+  /* 991px max */
+
+  @media (max-width:991px) {
+    contact-block{
+      margin: 2% 10%;
+      width:80%;
+    }
+  }
+
+  /* end 991px max */
+
   /* tablets > */
   @media (min-width: 768px) {
     .total-width {
